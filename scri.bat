@@ -1,6 +1,6 @@
 @echo off
 
-g++ ppmout.cpp -o ppmout.exe -I utilities/collision -I utilities/datatypes -I utilities/objtypes -I utilities/pixelhandle -I utilities/
+g++ ppmout.cpp -o ppmout.exe -I utilities/collision -I utilities/datatypes -I utilities/objtypes -I utilities/pixelhandle -I utilities/ -O3 -OFast
 
 if errorlevel 1 (
   echo Compilation failed!
